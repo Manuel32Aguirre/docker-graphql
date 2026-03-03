@@ -30,11 +30,11 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t manuel32aguirre/docker-graphql:0.0.2 .
+        docker build -t manuel32aguirre/docker-graphql:latest .
 
     - name: Push Docker Image
       run: |
-        docker push manuel32aguirre/docker-graphql:0.0.2
+        docker push manuel32aguirre/docker-graphql:latest
         
       
     # - name: Build the Docker image
